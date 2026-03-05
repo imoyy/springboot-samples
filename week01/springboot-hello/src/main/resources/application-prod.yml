@@ -1,0 +1,6 @@
+server:
+  port: 80
+
+app:
+  env: prod
+  description: 生产环境

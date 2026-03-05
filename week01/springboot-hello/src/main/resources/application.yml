@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springboot-hello
+  profiles:
+    active: dev
+
+app:
+  version: 0.0.1-SNAPSHOT
