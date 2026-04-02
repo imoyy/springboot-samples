@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springboot-week03-prod
+
+server:
+  port: 8888
+
+app:
+  version: 2.0.0
+  description: 这是生产环境

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springboot-week03-dev
+
+server:
+  port: 8888
+
+app:
+  version: 2.0.0
+  description: 这是开发环境
