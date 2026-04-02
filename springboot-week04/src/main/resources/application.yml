@@ -1,0 +1,6 @@
+team:
+  leader: "张三"
+  age: 32
+  email: njuit@qq.com
+  phone: 13800138000
+  createTime: "2020-01-01"
