@@ -1,0 +1,13 @@
+package com.hxc.springbootweek06;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringbootWeek06ApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}

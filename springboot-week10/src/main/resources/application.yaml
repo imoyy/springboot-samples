@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: springboot-week10
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: imoyy@qq.com
+    password: rlhpwvfzidfadhde
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

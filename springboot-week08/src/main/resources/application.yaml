@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: springboot-week08
+  # Redis configuration
+  data:
+    redis:
+      # Redis server host
+      host: localhost
+      # Redis server port
+      port: 6379
+      # Redis password
+      password: abc123
+      # Connection timeout
+      timeout: 5000ms
+      # Redis database index
+      database: 0
+      # Lettuce connection pool
+      lettuce:
+        pool:
+          # Maximum number of active connections
+          max-active: 200
+          # Maximum wait time for a connection
+          max-wait: -1ms
+          # Maximum number of idle connections
+          max-idle: 10
+          # Minimum number of idle connections
+          min-idle: 0
+          # Idle connection eviction interval
+          time-between-eviction-runs: 60s
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

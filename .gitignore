@@ -1,2 +1,6 @@
-/springboot-week02/.mvn/wrapper
-/springboot-week02/.mvn/wrapper
+AGENTS.md
+CLAUDE.md
+.agents/*
+.codex/*
+.opencode/*
+.claude/*
